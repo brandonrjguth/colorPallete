@@ -13,7 +13,13 @@
     "Theme Color": {
       "default": "Yes",
       "type": "checkbox",
-      "components": [
+      "values": {
+        "No": {},
+        "Yes": {
+            "shared.css": ["SP"]
+        }
+        },
+        "components": [
         {
             "name": "Background Picker",
             "type": "color-picker",
