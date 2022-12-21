@@ -5,13 +5,9 @@
   "version": "v1.0",
   "target": "System-Wide",
   "description": "Control your colors",
-  "inject": {
-	"shared.css": ["QuickAccess", "SP", "MainMenu"]
-  },
-
   "patches": {
     "Theme Color": {
-      "default": "Yes",
+      "default": "No",
       "type": "checkbox",
       "values": {
         "No": {},
@@ -23,13 +19,14 @@
         {
             "name": "Background Picker",
             "type": "color-picker",
-            "on": "_",
+            "on": "Yes",
             "default": "#000",
             "css_variable": "test-main-color",
-            "tabs": ["QuickAccess", "SP", "MainMenu"]
+            "tabs": ["SP"]
         }
         ]
       }
     }
 }
+
 
