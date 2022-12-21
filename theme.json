@@ -17,12 +17,20 @@
         },
         "components": [
         {
-            "name": "Background Picker",
+            "name": "Primary Color",
             "type": "color-picker",
             "on": "Yes",
             "default": "#000",
-            "css_variable": "test-main-color",
+            "css_variable": "main-color",
             "tabs": ["SP"]
+        },
+        {
+          "name": "Secondary Color",
+          "type": "color-picker",
+          "on": "Yes",
+          "default": "#000",
+          "css_variable": "highlight-color",
+          "tabs": ["SP"]
         }
         ]
       }

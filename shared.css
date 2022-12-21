@@ -7,41 +7,41 @@ MAIN COLOUR
 
 /*header background color*/
 div#header {
-    background-color: var(--test-main-color);
+    background-color: var(main-color);
 }
 
 .ReactVirtualized__Grid.basicgamecarousel_BasicGameCarousel_3MdH5{
-    background-color: var(--test-main-color);
+    background-color: var(main-color);
 }
 
 /*header background color when moved down to what's new*/
 .header_Header_1E_SL::before{
-    background-color: var(--test-main-color);
+    background-color: var(main-color);
 }
 
 /*recent games main color*/
 .gamepadhomerecentgames_RecentGamesContainer_2_cRk.Panel.Focusable.gpfocuswithin{
-    background-color: var(--test-main-color);
+    background-color: var(main-color);
 }
 
 .gamepadhomerecentgames_RecentGamesInnerContainer_282X0 {
     background: none;
-    background-color: var(--test-main-color);
+    background-color: var(main-color);
     /*add padding to center games, atleast some needed if header background padding is removed*/
-    padding-top:120px;
+    /*padding-top:120px;*/
 }
 
 /*whats new color*/
 .gamepadhome_TabbedContent_cE1Sa {
     background: none;
-    background-color: var(--test-main-color);
+    background-color: var(main-color);
 }
 
 /*background behind header and top of recent games*/
 .gamepadhomerecentgames_RecentGamesContainer_2_cRk {
     /*remove padding optional*/
     /*padding-top: 0px;*/
-    background-color: var(--test-main-color);
+    background-color: var(main-color);
 }
 
 
@@ -56,34 +56,34 @@ ACCENT COLOUR
 
 /*Whats new friend button*/
 .appdetailsfriendssection_FriendsPlayingNowBadge_38sNQ.appdetailsfriendssection_InFriendsTab_15Vpl.appdetailsfriendssection_TabSelected_mHKj- {
-    background-color: #59bf40;
+    background-color:  var(highlight-color);
     color: #fff;
 }
 
 .appdetailsfriendssection_FriendsPlayingNowBadge_38sNQ.appdetailsfriendssection_InFriendsTab_15Vpl{
-    background-color: #59bf40;
+    background-color: var(highlight-color);
     color: #fff;
 }
 
 /*Playtime Icon*/
 .basicgamecarousel_Play_12eKc .basicgamecarousel_ActionIcon_25Qbo {
-    color: #59bf40;
+    color: var(highlight-color);
 }
 
 /*Friends Playing Font*/
 .gamepadhomefriends_InGameGame_KLo2n .gamepadhomefriends_FriendsPlaying_15rrZ {
     font-size: 15px;
-    color: #59bf40;
+    color: var(highlight-color);
 }
 
 /*Sale percentage color*/
 .BasicUI .salepreviewwidgets_StoreSaleDiscountBox_2fpFv {
-    background-color: #6d6d6d;
+    background-color: var(highlight-color);
 }
 
 /*steamdeck compatible symbol*/
 .BasicUI .salepreviewwidgets_StoreSaleDiscountBox_2fpFv {
-    background-color: #6d6d6d;
+    background-color: var(highlight-color);
 }
 
 
@@ -114,14 +114,17 @@ HEADER BUTTONS AND ICON COLOR
 /*header button focus*/
 .header_HeaderItem_2HnVd.header_Clickable_8sPcK.Panel.Focusable.gpfocus.gpfocuswithin {
     background-color: black;
+    color:white;
 }
 
 .header_HeaderItem_2HnVd.header_Clickable_8sPcK.header_BatteryIcon_1_6kL.Panel.Focusable.gpfocus.gpfocuswithin {
     background-color: black;
+    color:white;
 }
 
 .header_HeaderItem_2HnVd.header_Clickable_8sPcK.Panel.Focusable.gpfocus.gpfocuswithin {
     background-color: black;
+    color:white;
 }
 
 /*header battery color*/
