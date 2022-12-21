@@ -1,0 +1,29 @@
+{
+  "name": "ColorPallet",
+  "author": "brandonrguth",
+  "manifest_version": 4,
+  "version": "v1.0",
+  "target": "System-Wide",
+  "description": "Control your colors",
+  "inject": {
+	"shared.css": ["QuickAccess", "SP", "MainMenu"]
+  },
+
+  "patches": {
+    "Theme Color": {
+      "default": "Yes",
+      "type": "checkbox",
+      "components": [
+        {
+            "name": "Background Picker",
+            "type": "color-picker",
+            "on": "_",
+            "default": "#000",
+            "css_variable": "test-main-color",
+            "tabs": ["QuickAccess", "SP", "MainMenu"]
+        }
+        ]
+      }
+    }
+}
+
